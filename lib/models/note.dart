@@ -66,3 +66,4 @@ class Note {
 		this._date = map['date'];
 	}
 }
+

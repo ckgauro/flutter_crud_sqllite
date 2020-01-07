@@ -75,7 +75,6 @@ class NoteListState extends State<NoteList> {
 
   void navigateToDetail(String title) {
 	  Navigator.push(context, MaterialPageRoute(builder: (context) {
-      print('Titles values :${title}');
 		  return NoteDetail(title);
 	  }));
   }

@@ -167,7 +167,3 @@ class NoteDetailState extends State<NoteDetail> {
 		Navigator.pop(context);
   }
 }
-
-
-
-
